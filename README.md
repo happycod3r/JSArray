@@ -21,8 +21,6 @@
 JSArray is for times when you need to create really long arrays and don't want to take 5 years writing it because of all the commas and quotes.
 It allows you to simply enter the array elements and customize the resulting array element style. When you are done you just copy the output.
 
-![example]()
-
 ---
 
 ## [Install](#install)
