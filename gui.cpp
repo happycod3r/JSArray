@@ -257,21 +257,24 @@ void JSArray::gui::InitializeComponent(void)
 	this->Load += gcnew System::EventHandler(this, &gui::onGUILoad);
 	this->Shown += gcnew System::EventHandler(this, &gui::onGUIShown);
 
-	this->Controls->Add(this->make_array_object_checkbox);
-	this->Controls->Add(this->clear_all_btn);
-	this->Controls->Add(this->clear_created_array_output_btn);
-	this->Controls->Add(this->wrap_in_single_quotes_checkbox);
-	this->Controls->Add(this->element_type_comboBox);
-	this->Controls->Add(this->element_type_lbl);
-	this->Controls->Add(this->add_array_element_btn);
-	this->Controls->Add(this->copy_array_btn);
-	this->Controls->Add(this->created_array_output);
-	this->Controls->Add(this->array_element_input);
-	this->Controls->Add(this->create_array_btn);
-	this->Controls->Add(this->exit_app_btn);
-	this->Controls->Add(this->delete_array_element_btn);
-	this->Controls->Add(this->array_elements_listview);
-
+	array<Control^>^ ctrls = (gcnew array<Control^>(14)
+	{
+		this->make_array_object_checkbox,
+			this->clear_all_btn,
+			this->clear_created_array_output_btn,
+			this->wrap_in_single_quotes_checkbox,
+			this->element_type_comboBox,
+			this->element_type_lbl,
+			this->add_array_element_btn,
+			this->copy_array_btn,
+			this->created_array_output,
+			this->array_element_input,
+			this->create_array_btn,
+			this->exit_app_btn,
+			this->delete_array_element_btn,
+			this->array_elements_listview
+	});
+	this->Controls->AddRange(ctrls);
 	float scaleFactor = 1.2f;
 	ScaleControls(this, scaleFactor);
 
