@@ -48,5 +48,23 @@
     <Image Include="res\step2.gif">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="res\step3.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\step4.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\step5.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\step6.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\step7.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\step8.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

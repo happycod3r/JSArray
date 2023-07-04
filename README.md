@@ -33,16 +33,16 @@ Install section is in Progress...
 
 ## [Usage](#usage)
 
-JSArray is really simple to use. It doesn't have the prettiest gui ever, but works in it's 
+JSArray is really simple to use. It doesn't have the prettiest GUI ever, but works in its 
 intended way really well.
 
 ### Step 1) 
 	
-Pick an array element type with the dropo down selector labeled ***"Element Type"***.
+Pick an array element type with the drop down selector labeled ***"Element Type"***.
 
 ![Step1](res/step1.gif)
 
-###  step 2) 
+###  Step 2) 
 
 Next after picking an element type, enter your first element in the
 text box above the ***"Element Type"*** selector and press `Enter` on the 
@@ -50,42 +50,42 @@ keyboard or the ***"Add Element"*** button in JSArray.
 
 ![Step2](res/step2.gif)
 
-### step 3) 
+### Step 3) 
 	
 Once you have entered all of the elements that you want press the ***"Create []"*** 
 button to generate the array with all of your elements in the output box.
 
 ![Step3](res/step3.gif)
 
-### step 4) 
+### Step 4) 
 
-After pressing **"Create []"** you can choose to wrap any quoted elements in 
+After pressing ***"Create []"*** you can choose to wrap any quoted elements in 
 either single quotes `''` or double quotes `""`.
 
 ![Step4](res/step4.gif)
 
-### step 5) 
+### Step 5) 
 	 
 Once you decide on single or double quotes you can also choose to use either 
 an array constructor or an array literal.
 
 ![Step5](res/step5.gif)
 
-### step 6)
+### Step 6)
 
 After you finish building your array change "\<array name\>" to the name you want.
 
 ![Step6](res/step6.gif)
 
-### step 7)
+### Step 7)
 
 Finally press the ***"Copy []"*** button to copy the array to the clipboard.
 
 ![Step7](res/step7.gif)
 
-### step 8)
+### Step 8)
 
-When your done and if you need to make another array you can press the ***"Clear []"***
+When you're done and if you need to make another array you can press the ***"Clear []"***
 button to clear the array output. If you have unused elements in the Elements 
 list or text in the element input text box press the ***"Clear All"*** button instead.
 

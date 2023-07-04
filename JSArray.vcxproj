@@ -145,6 +145,12 @@
     <Image Include="res\jsarray-logo.png" />
     <Image Include="res\step1.gif" />
     <Image Include="res\step2.gif" />
+    <Image Include="res\step3.gif" />
+    <Image Include="res\step4.gif" />
+    <Image Include="res\step5.gif" />
+    <Image Include="res\step6.gif" />
+    <Image Include="res\step7.gif" />
+    <Image Include="res\step8.gif" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
